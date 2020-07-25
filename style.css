@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.all{
+	height: auto;
+	background: linear-gradient(lime,green,brown,red,black);
+}
+.logo img{
+	width: 100%;
+ 	height: 150px;
+
+}
+@media screen and (max-width: 786px){
+	.logo img{
+		width: 100%;
+		height: 80px;
+	}
+	}
+	.bibhag{
+    height: 60px;
+     background-color: blue;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 10px 10px white;
+   text-align: center;
+
+   }
+   .bibhag h1{
+   	color: white;
+   }
+@media screen and (max-width: 786px){
+	.bibhag{
+		width: auto;
+		height: auto;
+	}
+	.bibhag h1{
+		font-size: 30px;
+	}
+	}
+.impo h1{
+    color:white;
+    font-size: 30px;
+}
+strong{}
+@media screen and (max-width: 786px){
+	.impo h1{
+		font-size: 15px;
+	}
+	}
+@media screen and (max-width: 786px){
+	.pic img{
+		width: auto;
+		height: 200px;
+	}
+}	
+.pic img{
+	width: 250px;
+	box-shadow: 0px 0px 6px 3px white;
+	padding: 5px;
+}
+.contact {
+	color: white;
+	margin: 10px;
+	background-color:lime; 
+	text-align: center;
+}
+@media screen and (max-width: 786px){
+	.contact{
+		font-size: 20px;
+	}
+}
+.click{
+	border-radius:20px 20px 20px 20px;
+	background-color: brown;
+	height: 50px;
+text-align: center;
+}
+.click a{
+	color: white;
+	font-size: 20px;
+}
+.footer{
+	background-image: url(light.jpg);
+	height: auto;
+}
+.footer p{
+	color: green;
+}
+.footer a{
+	color:white ;
+}
+.footer a:hover{
+	color: red;
+	text-decoration: none;
+}
+.footer h1{
+	color: white;
+}
+@media screen and (max-width: 786px){
+	.footer h1{
+		font-size: 15px;
+	}
+}
