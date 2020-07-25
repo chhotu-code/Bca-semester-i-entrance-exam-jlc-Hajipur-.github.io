@@ -50,7 +50,7 @@ strong{}
 	}
 @media screen and (max-width: 786px){
 	.pic img{
-		width: auto;
+		width: 300;
 		height: 200px;
 	}
 }	
